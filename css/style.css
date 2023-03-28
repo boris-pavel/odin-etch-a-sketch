@@ -25,8 +25,17 @@ main {
 
 .etch-a-sketch{
     border: 20px solid #FCB5B5;
-    height: 60%;
+    height: 80%;
     width: 80%;
     border-radius: 10px;
     background-color: #6290C8;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover {
+    background-color: black;
 }
