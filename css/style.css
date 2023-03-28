@@ -16,6 +16,17 @@ main {
     background-color: #494368;
 }
 .right-side{
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
     background-color: #CEEC97;
+}
+
+.etch-a-sketch{
+    border: 20px solid #FCB5B5;
+    height: 60%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #6290C8;
 }
